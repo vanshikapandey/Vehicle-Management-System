@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.login{
+  background-image: linear-gradient(to right, rgb(37,224,227),rgb(181,136,247));
+  height:800px;
+  padding-top: 20vh;
+}
+.loginBox{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  width: 70%;
+  height: 500px;
+  border-radius: 20px;
+
+}
+.loginBox form{
+  display: flex;
+  flex-direction: column;
+
+ 
+  margin-top: 5vh;
+}
+.loginBox form input{
+  margin: 2vh 0;
+  border: none;
+  background-color: rgb(239, 239, 239);
+  padding: 2vh;
+  border-radius: 5px;
+}
+.loginBox form label{
+  text-align: left;
+}
+.loginBox form button{
+  width: 30%;
+  justify-content: center;
+   align-items: center;
+  border: none;
+  background-color: rgb(37,224,227);
+  padding: 1vh;
+ border-radius: 5px;  
+ margin-top: 2vh;
+ box-shadow: 1px 1px 1px 1px rgb(211, 209, 209);
+}
+ form span{
+  color: red;
+  font-size: 12px;
+  padding-top:2vh ;
+}
+.loginBox img{
+  height: 500px;
+  width: 500px;
+}
+
+.mainContainer h2{
+  font-weight: 700;
+  color: rgb(9, 5, 116);
+}
+.navbar button {
+  background-color: rgb(246,190,26);
+  border: 2px solid rgb(246,190,26);
+  color: white;
+  font-weight: 600;
+  padding: 0.5vh;
+  border-radius: 2px;
+  font-size: 12px;
+ 
+
+}
+.navbar{
+  
+  padding: 2vh;
+  background-color:rgb(34,42,73) ;
+
+}
+.dataTable-section .addNew-btn{
+
+  background-color: rgb(233,31,99);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 1.5vh;
+  margin-top: 25vh;
+  text-decoration: none
+
+}
+.buttons{
+  background-color: rgb(26,32,57);
+}
+.buttons h3{
+  padding: 5vh 0 0 5vh;
+  color: white;
+  font-weight: 500;
+}
+.buttons small{
+  padding: 6vh 0 0 1vh;
+}
+.landing{
+  display: flex;
+}
+.mainContainer input{
+  padding: 0.5vh;
+  border-radius: 5px;
+  color: rgb(211, 209, 209);
+  border: 0.5px solid;
+  background-color:rgb(34,42,73) ;
+}
+
+.input-field{
+  position: relative;
+
+}
+.input-field input{
+  padding-left: 4vh;
+}
+
+.icon{
+  position: absolute;
+  top:8px;
+  left:10px;
+}
+
+.landing{
+  margin-left: -2vh;
+  color:rgb(218, 212, 212);
+  font-weight: 500;
+}
+.dataTable-section{
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+.dataTable-section .dataTable{
+  margin-top: 5vh;
+}
+.newEntry{
+
+  display: flex;
+  justify-content: center; 
+  padding: 5vh 0;
+
+}
+.newEntry form{
+  background-color: white;
+  padding: 5vh 10vh;
+  font-weight: 600;
+  color: #2a2a72;
+
+}
+form label{
+  padding-bottom:1.5vh ;
+}
+form input{
+  width: 100%;
+  padding: 1vh;
+}
+form button{
+  background-color: #2a2a72;
+  border: 2px solid #2a2a72;
+  border-radius: 5px;
+  color: white;
+  padding: 1.5vh;
+  text-decoration: none;
+  font-weight: 600;
+  width: 100%;
+}
+.newEntry .form-input{
+  padding: 2vh 0;
+}
+.blue-bg{
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, rgb(48, 70, 155) 0%, rgb(26,32,57) 74%,rgb(48, 70, 155));
+}
+.blue-bg h1{
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: 10vh 0 0 0;
+  font-size: 38px;
+}
+footer{
+ background-color: rgb(26,32,57); 
+ margin-left: -2vh;
+padding: 5vh;
+color: rgb(250, 250, 250);
+text-align: center;
+}
+.card-info{
+
+  color: white;
+  font-weight: 500;
+  background-color: rgb(34,42,73);
+  width: 20%;
+  padding: 3vh;
+  text-align: center;
+  margin-left: 5vh;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.allCards{
+  display: flex;
+}
+.menuItem{
+  font-size: 14px;
+}
+.circularProgress{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.MuiTablePagination-root div, svg{
+  color: rgba(217, 219, 219, 0.864)
+}
